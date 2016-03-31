@@ -13,6 +13,11 @@
 		2472FCCD1CAD47BD002DF795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2472FCCB1CAD47BD002DF795 /* Main.storyboard */; };
 		2472FCCF1CAD47BD002DF795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2472FCCE1CAD47BD002DF795 /* Assets.xcassets */; };
 		2472FCD21CAD47BD002DF795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2472FCD01CAD47BD002DF795 /* LaunchScreen.storyboard */; };
+		2472FCDF1CAD4A68002DF795 /* centerIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2472FCDA1CAD4A68002DF795 /* centerIcon@2x.png */; };
+		2472FCE01CAD4A68002DF795 /* UIScrollView+UzysCircularProgressPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2472FCDC1CAD4A68002DF795 /* UIScrollView+UzysCircularProgressPullToRefresh.m */; };
+		2472FCE11CAD4A68002DF795 /* UzysRadialProgressActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2472FCDE1CAD4A68002DF795 /* UzysRadialProgressActivityIndicator.m */; };
+		2472FCEB1CAD5364002DF795 /* f-twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2472FCEA1CAD5364002DF795 /* f-twitter@2x.png */; };
+		2472FCED1CAD53E3002DF795 /* thunderbird@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2472FCEC1CAD53E3002DF795 /* thunderbird@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,13 @@
 		2472FCCE1CAD47BD002DF795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2472FCD11CAD47BD002DF795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2472FCD31CAD47BD002DF795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2472FCDA1CAD4A68002DF795 /* centerIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "centerIcon@2x.png"; sourceTree = "<group>"; };
+		2472FCDB1CAD4A68002DF795 /* UIScrollView+UzysCircularProgressPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UzysCircularProgressPullToRefresh.h"; sourceTree = "<group>"; };
+		2472FCDC1CAD4A68002DF795 /* UIScrollView+UzysCircularProgressPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UzysCircularProgressPullToRefresh.m"; sourceTree = "<group>"; };
+		2472FCDD1CAD4A68002DF795 /* UzysRadialProgressActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysRadialProgressActivityIndicator.h; sourceTree = "<group>"; };
+		2472FCDE1CAD4A68002DF795 /* UzysRadialProgressActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysRadialProgressActivityIndicator.m; sourceTree = "<group>"; };
+		2472FCEA1CAD5364002DF795 /* f-twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f-twitter@2x.png"; sourceTree = "<group>"; };
+		2472FCEC1CAD53E3002DF795 /* thunderbird@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thunderbird@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,9 @@
 		2472FCC11CAD47BD002DF795 /* refreshRotationImage */ = {
 			isa = PBXGroup;
 			children = (
+				2472FCEC1CAD53E3002DF795 /* thunderbird@2x.png */,
+				2472FCEA1CAD5364002DF795 /* f-twitter@2x.png */,
+				2472FCD91CAD4A68002DF795 /* Library */,
 				2472FCC51CAD47BD002DF795 /* AppDelegate.h */,
 				2472FCC61CAD47BD002DF795 /* AppDelegate.m */,
 				2472FCC81CAD47BD002DF795 /* ViewController.h */,
@@ -77,6 +92,18 @@
 				2472FCC31CAD47BD002DF795 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2472FCD91CAD4A68002DF795 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2472FCDA1CAD4A68002DF795 /* centerIcon@2x.png */,
+				2472FCDB1CAD4A68002DF795 /* UIScrollView+UzysCircularProgressPullToRefresh.h */,
+				2472FCDC1CAD4A68002DF795 /* UIScrollView+UzysCircularProgressPullToRefresh.m */,
+				2472FCDD1CAD4A68002DF795 /* UzysRadialProgressActivityIndicator.h */,
+				2472FCDE1CAD4A68002DF795 /* UzysRadialProgressActivityIndicator.m */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2472FCEB1CAD5364002DF795 /* f-twitter@2x.png in Resources */,
+				2472FCDF1CAD4A68002DF795 /* centerIcon@2x.png in Resources */,
+				2472FCED1CAD53E3002DF795 /* thunderbird@2x.png in Resources */,
 				2472FCD21CAD47BD002DF795 /* LaunchScreen.storyboard in Resources */,
 				2472FCCF1CAD47BD002DF795 /* Assets.xcassets in Resources */,
 				2472FCCD1CAD47BD002DF795 /* Main.storyboard in Resources */,
@@ -149,8 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2472FCE11CAD4A68002DF795 /* UzysRadialProgressActivityIndicator.m in Sources */,
 				2472FCCA1CAD47BD002DF795 /* ViewController.m in Sources */,
 				2472FCC71CAD47BD002DF795 /* AppDelegate.m in Sources */,
+				2472FCE01CAD4A68002DF795 /* UIScrollView+UzysCircularProgressPullToRefresh.m in Sources */,
 				2472FCC41CAD47BD002DF795 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
